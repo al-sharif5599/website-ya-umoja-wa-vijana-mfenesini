@@ -1,0 +1,425 @@
+<!doctype html>
+<html lang="en" data-current-lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description"
+        content="MFENESINI YOUTH DEVELOPMENT COOPERATIVE — Empowering youth for community development in Mfenesini, Zanzibar." />
+    <title>MFENESINI YOUTH DEVELOPMENT COOPERATIVE</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Inter:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css" />
+</head>
+
+<body>
+    <!-- Loading overlay -->
+    <div class="loading-overlay" aria-hidden="true">
+        <div class="spinner" role="status" aria-label="Loading"></div>
+        <div class="loading-text" data-i18n="loadingText">Preparing the experience…</div>
+    </div>
+
+    <a class="skip-link" href="#home" data-i18n="skipToContent">Skip to content</a>
+
+    <!-- Header / Navigation -->
+    <header class="site-header" id="header">
+        <div class="container header-inner">
+            <a href="index.html" class="brand" aria-label="MFENESINI YOUTH DEVELOPMENT COOPERATIVE">
+                <span class="brand-mark" aria-hidden="true">MY</span>
+                <span class="brand-text">
+                    <span class="brand-name">MFENESINI</span>
+                    <span class="brand-sub" data-i18n="brandSub">YOUTH DEVELOPMENT COOPERATIVE</span>
+                </span>
+            </a>
+
+            <nav class="nav" aria-label="Primary">
+                <button class="nav-toggle" aria-label="Open menu" aria-expanded="false" aria-controls="nav-menu">
+                    <span class="hamburger" aria-hidden="true"></span>
+                </button>
+
+                <div class="nav-menu" id="nav-menu" role="menu">
+                    <a class="nav-link is-active" href="index.html" role="menuitem" data-i18n="navHome">Home</a>
+                    <a class="nav-link" href="about.html" role="menuitem" data-i18n="navAbout">About</a>
+                    <a class="nav-link" href="activities.html" role="menuitem" data-i18n="navActivities">Activities</a>
+                    <a class="nav-link" href="gallery.html" role="menuitem" data-i18n="navGallery">Gallery</a>
+                    <a class="nav-link" href="leadership.html" role="menuitem" data-i18n="navLeadership">Leadership</a>
+                    <a class="nav-link" href="contact.html" role="menuitem" data-i18n="navContact">Contact</a>
+                </div>
+            </nav>
+
+            <div class="header-actions">
+                <button class="icon-btn" id="themeToggle" aria-label="Toggle dark mode" title="Dark mode">
+                    <span class="icon" aria-hidden="true">☾Eye</span>
+                </button>
+
+                <div class="lang-switch" role="group" aria-label="Language switch">
+                    <button type="button" class="lang-btn is-active" data-lang="en" aria-label="English">EN</button>
+                    <button type="button" class="lang-btn" data-lang="sw" aria-label="Kiswahili">SW</button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero -->
+    <main id="main">
+        <section class="hero" id="home">
+            <div class="hero-media" aria-hidden="true">
+                <div class="hero-slides" id="heroSlides">
+                    <div class="hero-slide is-active"
+                        style="background-image:url('https://images.unsplash.com/photo-1520975958225-0f0fe0c5fb7c?auto=format&fit=crop&w=2000&q=70');">
+                    </div>
+                    <div class="hero-slide"
+                        style="background-image:url('https://images.unsplash.com/photo-1520975693411-0f5c8b8c2d9c?auto=format&fit=crop&w=2000&q=70');">
+                    </div>
+                    <div class="hero-slide"
+                        style="background-image:url('https://images.unsplash.com/photo-1517485880793-f1fef2d1c5b2?auto=format&fit=crop&w=2000&q=70');">
+                    </div>
+                    <div class="hero-slide"
+                        style="background-image:url('https://images.unsplash.com/photo-1518837695005-2083093ee35b?auto=format&fit=crop&w=2000&q=70');">
+                    </div>
+                </div>
+                <div class="hero-overlay"></div>
+            </div>
+
+            <div class="container hero-content">
+                <div class="hero-copy" data-reveal>
+                    <p class="hero-eyebrow" data-i18n="heroEyebrow">Mfenesini, Zanzibar · Tanzania</p>
+                    <h1 class="hero-title" data-i18n="heroTitle">Empowering Youth for Community Development</h1>
+                    <p class="hero-description" data-i18n="heroDesc">
+                        MFENESINI YOUTH DEVELOPMENT COOPERATIVE unites young people to serve our community through
+                        farming, education support, sports, cleaning campaigns, and development projects.
+                    </p>
+
+                    <div class="hero-cta" role="group" aria-label="Call to action">
+                        <a class="btn btn-primary" href="activities.html" data-i18n="heroExplore">Explore Activities</a>
+                        <a class="btn btn-ghost" href="contact.html" data-i18n="heroContact">Contact Us</a>
+                    </div>
+
+                    <div class="hero-meta">
+                        <div class="meta-item">
+                            <div class="meta-icon" aria-hidden="true">🌿</div>
+                            <div>
+                                <div class="meta-title" data-i18n="metaProjTitle">Community Projects</div>
+                                <div class="meta-sub" data-i18n="metaProjSub">Farming · Cleanups · Training</div>
+                            </div>
+                        </div>
+                        <div class="meta-item">
+                            <div class="meta-icon" aria-hidden="true">🤝</div>
+                            <div>
+                                <div class="meta-title" data-i18n="metaLeadTitle">Youth Leadership</div>
+                                <div class="meta-sub" data-i18n="metaLeadSub">Organized · Accountable · Caring</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="hero-controls" data-reveal>
+                    <div class="slider-dots" id="heroDots" aria-label="Choose hero slide"></div>
+                    <div class="slider-arrows">
+                        <button class="circle-btn" id="prevHero" aria-label="Previous slide">←</button>
+                        <button class="circle-btn" id="nextHero" aria-label="Next slide">→</button>
+                    </div>
+                    <div class="scroll-hint" aria-hidden="true">
+                        <span data-i18n="scroll">Scroll</span>
+                        <span class="mouse"></span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About -->
+        <section class="section" id="about">
+            <div class="container">
+                <div class="section-header" data-reveal>
+                    <h2 data-i18n="aboutTitle">About Us</h2>
+                    <p data-i18n="aboutDesc">
+                        We are a youth cooperative in Mfenesini, Zanzibar. Our focus is building skills, creating
+                        opportunities, and strengthening community bonds.
+                    </p>
+                </div>
+
+                <div class="about-grid">
+                    <div class="about-card" data-reveal>
+                        <h3 class="card-title" data-i18n="aboutCardTitle">MFENESINI YOUTH DEVELOPMENT COOPERATIVE</h3>
+                        <p class="card-text" data-i18n="aboutCardText">
+                            We mobilize young people to improve livelihoods and wellbeing through practical community
+                            service.
+                            From agriculture to education support, we keep our work visible, measurable, and
+                            community-driven.
+                        </p>
+
+                        <div class="about-list" role="list">
+                            <div class="about-item" role="listitem">
+                                <h4 data-i18n="missionTitle">Mission</h4>
+                                <p data-i18n="missionDesc">To empower youth through organized community service and
+                                    capacity building.</p>
+                            </div>
+                            <div class="about-item" role="listitem">
+                                <h4 data-i18n="visionTitle">Vision</h4>
+                                <p data-i18n="visionDesc">A resilient community where youth lead sustainable development
+                                    initiatives.</p>
+                            </div>
+                            <div class="about-item" role="listitem">
+                                <h4 data-i18n="objectivesTitle">Objectives</h4>
+                                <p data-i18n="objectivesDesc">
+                                    Deliver community activities, support education, encourage sports and unity, and
+                                    promote
+                                    entrepreneurship.
+                                </p>
+                            </div>
+                            <div class="about-item" role="listitem">
+                                <h4 data-i18n="impactTitle">Community Impact</h4>
+                                <p data-i18n="impactDesc">
+                                    Our activities strengthen social cohesion, improve local environments, and create
+                                    pathways
+                                    for young leaders.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="stats-wrap" data-reveal>
+                        <div class="stats-card">
+                            <div class="stat">
+                                <div class="stat-number" data-counter="120">0</div>
+                                <div class="stat-label" data-i18n="statYouth">Youth involved</div>
+                            </div>
+                            <div class="stat">
+                                <div class="stat-number" data-counter="34">0</div>
+                                <div class="stat-label" data-i18n="statProjects">Projects completed</div>
+                            </div>
+                            <div class="stat">
+                                <div class="stat-number" data-counter="210">0</div>
+                                <div class="stat-label" data-i18n="statActivities">Community activities</div>
+                            </div>
+                            <div class="stat">
+                                <div class="stat-number" data-counter="18">0</div>
+                                <div class="stat-label" data-i18n="statTraining">Training sessions</div>
+                            </div>
+
+                            <div class="stats-accent" aria-hidden="true"></div>
+                        </div>
+
+                        <div class="about-quote">
+                            <div class="quote-icon" aria-hidden="true">💬</div>
+                            <p data-i18n="quote">
+                                “When youth organize, the community grows stronger.”
+                            </p>
+                            <span class="quote-author" data-i18n="motto">— MFENESINI Cooperative Motto</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Activities -->
+        <section class="section section-alt" id="activities">
+            <div class="container">
+                <div class="section-header" data-reveal>
+                    <h2 data-i18n="activitiesTitle">Activities</h2>
+                    <p data-i18n="activitiesDesc">Practical, community-focused work—designed to inspire and sustain
+                        youth empowerment.</p>
+                </div>
+
+                <div class="grid grid-3" id="activitiesGrid" data-reveal></div>
+            </div>
+        </section>
+
+        <!-- Gallery -->
+        <section class="section" id="gallery">
+            <div class="container">
+                <div class="section-header" data-reveal>
+                    <h2 data-i18n="galleryTitle">Gallery</h2>
+                    <p data-i18n="galleryDesc">Photos and short videos from our community work.</p>
+                </div>
+
+                <div class="gallery-grid" id="galleryGrid" data-reveal></div>
+            </div>
+        </section>
+
+        <!-- Community Posts -->
+        <section class="section section-alt" id="posts">
+            <div class="container">
+                <div class="section-header" data-reveal>
+                    <h2 data-i18n="postsTitle">Community Updates</h2>
+                    <p data-i18n="postsDesc">Like posts and leave comments your interactions stay after refresh.</p>
+                </div>
+
+                <div class="posts-grid" id="postsGrid" data-reveal></div>
+            </div>
+        </section>
+
+        <!-- Leadership -->
+        <section class="section" id="leadership">
+            <div class="container">
+                <div class="section-header" data-reveal>
+                    <h2 data-i18n="leadershipTitle">Leadership</h2>
+                    <p data-i18n="leadershipDesc">Meet the cooperative cabinet members youth leaders serving the
+                        community.</p>
+                </div>
+
+                <div class="grid grid-4" id="leadershipGrid" data-reveal></div>
+            </div>
+        </section>
+
+        <!-- Contact -->
+        <section class="section section-alt" id="contact">
+            <div class="container">
+                <div class="contact-grid">
+                    <div class="contact-info" data-reveal>
+                        <h2 data-i18n="contactTitle">Contact & Location</h2>
+                        <p class="muted" data-i18n="contactDesc">
+                            Find us in Mfenesini, Zanzibar. For partnerships, donations, or youth support, reach out.
+                        </p>
+
+                        <ul class="contact-list">
+                            <li><span class="li-icon" aria-hidden="true">📞</span> <a href="tel:+255 626 122 422">+255
+                                    626 112 422
+                                </a></li>
+                            <li><span class="li-icon" aria-hidden="true">📧</span> <a
+                                    href="SHARIF:sharifmake5599@gmail.com" data-i18n="chairman">chair man</a></li>
+                            <li><span class="li-icon" aria-hidden="true">📍</span> <span data-i18n="location">Mfenesini,
+                                    Zanzibar, Tanzania</span></li>
+                        </ul>
+
+                        <div class="social-row" aria-label="Social media">
+                            <a class="social-icon" href="#" aria-label="Facebook" title="Facebook">f</a>
+                            <a class="social-icon" href="#" aria-label="WhatsApp" title="WhatsApp">☎</a>
+                            <a class="social-icon" href="#" aria-label="Instagram" title="Instagram">⌁</a>
+                            <a class="social-icon" href="#" aria-label="YouTube" title="YouTube">▶</a>
+                        </div>
+
+                        <div class="map-wrap" data-reveal>
+                            <iframe title="Google Maps - Mfenesini, Zanzibar" loading="lazy"
+                                referrerpolicy="no-referrer-when-downgrade"
+                                src="https://www.google.com/maps?q=Mfenesini%2C%20Zanzibar&output=embed">
+                            </iframe>
+                        </div>
+                    </div>
+
+                    <div class="contact-form" data-reveal>
+                        <h3 class="card-title" data-i18n="sendMsg">Send a Message</h3>
+                        <form id="contactForm" novalidate>
+                            <div class="form-grid">
+                                <label>
+                                    <span data-i18n="formName">Name</span>
+                                    <input name="name" type="text" placeholder="Your name"
+                                        data-i18n-placeholder="namePlaceholder" autocomplete="name" required />
+                                    <small class="field-error" data-error-for="name"></small>
+                                </label>
+
+                                <label>
+                                    <span data-i18n="formEmail">Email</span>
+                                    <input name="email" type="email" placeholder="you@example.com"
+                                        data-i18n-placeholder="emailPlaceholder" autocomplete="email" required />
+                                    <small class="field-error" data-error-for="email"></small>
+                                </label>
+                            </div>
+
+                            <label>
+                                <span data-i18n="formMessage">Message</span>
+                                <textarea name="message" placeholder="How can we help?"
+                                    data-i18n-placeholder="messagePlaceholder" rows="5" required></textarea>
+                                <small class="field-error" data-error-for="message"></small>
+                            </label>
+
+                            <button class="btn btn-primary" type="submit" data-i18n="submitBtn">Submit Message</button>
+                            <p class="form-note" id="formNote" role="status" aria-live="polite"></p>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+        <div class="container footer-inner">
+            <div>
+                <div class="footer-brand" data-i18n="brandSub">MFENESINI YOUTH DEVELOPMENT COOPERATIVE</div>
+                <div class="footer-motto" data-i18n="quote">“When youth organize, the community grows stronger.”</div>
+            </div>
+
+            <div class="footer-col">
+                <div class="footer-title" data-i18n="footerLinks">Quick Links</div>
+                <a href="index.html" data-i18n="navHome">Home</a>
+                <a href="about.html" data-i18n="navAbout">About</a>
+                <a href="activities.html" data-i18n="navActivities">Activities</a>
+                <a href="gallery.html" data-i18n="navGallery">Gallery</a>
+                <a href="leadership.html" data-i18n="navLeadership">Leadership</a>
+                <a href="contact.html" data-i18n="navContact">Contact</a>
+            </div>
+
+            <div class="footer-col">
+                <div class="footer-title" data-i18n="footerSocial">Social</div>
+                <a href="#">Facebook</a>
+                <a href="#">wa.me//255626122422</a>
+                <a href="#">Instagram</a>
+                <a href="#">YouTube</a>
+            </div>
+        </div>
+
+        <div class="container footer-bottom">
+            <div>© <span id="year"></span> <span data-i18n="footerCopy">MFENESINI Youth Development Cooperative. All
+                    rights reserved.</span></div>
+            <div class="footer-small" data-i18n="footerImpact">Designed for community impact in Mfenesini, Zanzibar.
+            </div>
+        </div>
+    </footer>
+
+    <!-- Image lightbox -->
+    <div class="lightbox" id="lightbox" aria-hidden="true" role="dialog" aria-modal="true">
+        <button class="lightbox-close" id="lightboxClose" aria-label="Close">✕</button>
+        <div class="lightbox-body">
+            <img id="lightboxImg" alt="Gallery preview" />
+        </div>
+    </div>
+
+    <!-- Video modal -->
+    <div class="video-modal" id="videoModal" aria-hidden="true" role="dialog" aria-modal="true">
+        <button class="video-close" id="videoClose" aria-label="Close">✕</button>
+        <div class="video-frame">
+            <iframe id="videoFrame" title="Gallery video" src=""
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+        </div>
+    </div>
+
+    <!-- Back to top -->
+    <button class="back-to-top" id="backToTop" aria-label="Back to top">↑</button>
+
+    <!-- Chatbot UI -->
+    <div class="chatbot-container" id="chatbot">
+        <button class="chat-btn" id="chatBtn" aria-label="Open Chat">
+            <span class="chat-icon">💬</span>
+        </button>
+
+        <div class="chat-window" id="chatWindow">
+            <div class="chat-header">
+                <div class="chat-title" data-i18n="chatBotTitle">MYDC Chatbot</div>
+                <button class="chat-close" id="chatClose">✕</button>
+            </div>
+            <div class="chat-body" id="chatMessages">
+                <div class="msg bot" data-i18n="chatBotWelcome">Hello! Welcome. Do you have any questions about Mfenesini Youth Cooperative?</div>
+            </div>
+            <!-- Quick Questions (Chat Inbox) -->
+            <div class="chat-quick-questions" id="chatQuickQuestions">
+                <button class="quick-question-btn" data-question="about" data-i18n="chatQAbout">About Us</button>
+                <button class="quick-question-btn" data-question="activities" data-i18n="chatQActivities">Our Activities</button>
+                <button class="quick-question-btn" data-question="contact" data-i18n="chatQContact">Contact</button>
+                <button class="quick-question-btn" data-question="location" data-i18n="chatQLocation">Location</button>
+            </div>
+            <div class="chat-footer">
+                <input type="text" id="chatInput" placeholder="Write a message..." data-i18n-placeholder="chatPlaceholder" autocomplete="off">
+                <button id="chatSend">➤</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="./js/script.js" defer></script>
+</body>
+
+</html>
